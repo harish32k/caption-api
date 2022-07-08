@@ -14,13 +14,17 @@ Rename that file to "checkpoints.pt"
 Move checkpoints.pt to a folder named checkpoints and the folder checkpoints should be in the main directory
 
 The directory should look like this
+
 ![Directory](/markdown_images/guide1.png "Directory")
 
+
 The checkpoints folder should contain the captioning checkpoint/model file (checkpoint.pt) as shown
+
 ![checkpoint.pt file in checkpoints folder](/markdown_images/guide2.png "checkpoint.pt file in checkpoints folder")
 
 
 Overall directory structure should look like this
+
 ![Directory structure](/markdown_images/guide3.png "Directory structure")
 
 Now the docker image can be built using the Dockerfile
